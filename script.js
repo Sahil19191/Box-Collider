@@ -170,7 +170,7 @@ function gameLoop(){
         gameon = false;
         location.reload();
     }
-    if(isCollided(e1,player) || isCollided(e2,player) || isCollided(e3,player)){
+    if(isCollided(e1,player) || isCollided(e2,player) || isCollided(e3,player) || isCollided(e4,player)){
         gameon = false;
         window.alert("Game Over");
         location.reload();
